@@ -105,17 +105,17 @@ OUTPUT: values provided by the c++ program to the simulator
 * ROS provides an excellent generalized extended kalman fitler library that allows us to perform robot location tracking. It uses Constant Turn Rate and Acceleration motion model to perform prediction, and measurements from various sensor like IMU, GPS, Wheel Odometry to perform update step. Here is the [paper on the ekf framework](http://docs.ros.org/en/melodic/api/robot_localization/html/_downloads/robot_localization_ias13_revised.pdf), and here is the [code implementation](https://github.com/cra-ros-pkg/robot_localization/blob/melodic-devel/src/ekf.cpp)
 
 #### Tracking Multiple Objects and Sensor Fusion 
-* The below papers and resources concern tracking multiple objects, using Kalman Filters as well as other techniques!
+The below papers and resources concern tracking multiple objects, using Kalman Filters as well as other techniques!
 - [No Blind Spots: Full-Surround Multi-Object Tracking for Autonomous Vehicles using Cameras & LiDARs by A. Rangesh and M. Trivedi](https://arxiv.org/pdf/1802.08755.pdf)
 - [Multiple Sensor Fusion and Classification for Moving Object Detection and Tracking by R.O. Chavez-Garcia and O. Aycard](https://hal.archives-ouvertes.fr/hal-01241846/document)
 
 #### Stereo cameras
-* The below papers cover various methods of using stereo camera set-ups for object detection and tracking.
+The below papers cover various methods of using stereo camera set-ups for object detection and tracking.
 - [Robust 3-D Motion Tracking from Stereo Images: A Model-less Method by Y.K. Yu, et. al.](http://www.cse.cuhk.edu.hk/~khwong/J2008_IEEE_TIM_Stereo%20Kalman%20.pdf)
 - [Vehicle Tracking and Motion Estimation Based on Stereo Vision Sequences by A. Barth ]
 
 #### Deep Learning-based approaches
-* The below papers include various deep learning-based approaches to 3D object detection and tracking.
+The below papers include various deep learning-based approaches to 3D object detection and tracking.
 - [Fast and Furious: Real Time End-to-End 3D Detection, Tracking and Motion Forecasting with a Single Convolutional Net by W. Luo, et. al.](https://openaccess.thecvf.com/content_cvpr_2018/papers/Luo_Fast_and_Furious_CVPR_2018_paper.pdf)
 - [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection by Y. Zhou and O. Tuzel](https://arxiv.org/abs/1711.06396)
 
